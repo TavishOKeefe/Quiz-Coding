@@ -1,3 +1,11 @@
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 65%;
+}
+
 body {
   font-family: courier, monospace;
   margin: 15px;
@@ -18,12 +26,13 @@ h2 {
   text-align: center;
 }
 
-h3 {
-
-}
-
 p{
   text-align: center;
+}
+
+.dontworry {
+  color: #85C1E9;
+  text-shadow: 2px 2px black;
 }
 
 #quiz {
