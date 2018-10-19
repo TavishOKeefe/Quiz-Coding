@@ -15,7 +15,7 @@ $(document).ready(function() {
     $("#survey").hide();
     $(".pooh").hide();
 
-    var charScores = [0, 0, 0];
+    var charScores = [0, 0, 0, 0];
     var question1Answer = parseInt($("input:radio[name=question1]:checked").val());
     var question2Answer = parseInt($("input:radio[name=question2]:checked").val());
     var question3Answer = parseInt($("input:radio[name=question3]:checked").val());
