@@ -13,6 +13,7 @@ $(document).ready(function() {
     event.preventDefault();
     $("#introduction").hide();
     $("#survey").hide();
+    $(".pooh").hide();
 
     var charScores = [0, 0, 0];
     var question1Answer = parseInt($("input:radio[name=question1]:checked").val());
@@ -40,5 +41,6 @@ $(document).ready(function() {
     }
     $(".button").show();
     $("#results").show();
+    $(".poohreading").show();
     });
   });

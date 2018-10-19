@@ -1,4 +1,4 @@
-img {
+.pooh {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -67,4 +67,9 @@ p{
 
 .button {
   display: none;
+}
+
+.poohreading {
+  display: none;
+  width: 40%;
 }
